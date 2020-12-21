@@ -1,6 +1,7 @@
 import React from 'react';
 import HomeContent from '../../pages/Home/home';
 import About from '../../pages/About/about';
+import Projects from '../../pages/Projects/projects';
 import './nav.css';
 
 import { Layout, Image } from 'antd';
@@ -41,8 +42,9 @@ function Nav() {
                 </h2> 
             </div>
         </Header>
-        <HomeContent/>
-        <About/>
+        <HomeContent />
+        <About />
+        <Projects />
         {/* <Footer>Footer</Footer> */}
       </Layout>
     </Layout>
