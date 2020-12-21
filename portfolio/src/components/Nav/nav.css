@@ -1,0 +1,24 @@
+@import 'antd/dist/antd.css';
+
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    color:#fff;
+}
+
+#nav-titles {
+    position:sticky;
+    margin-top:50px;
+}
+
+#sider {
+    position:fixed;
+    height: 1000px;
+}
+
+#content {
+    height:1000px;
+}
+
