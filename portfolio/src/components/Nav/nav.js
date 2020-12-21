@@ -1,5 +1,6 @@
 import React from 'react';
 import HomeContent from '../../pages/Home/home';
+import About from '../../pages/About/about';
 import './nav.css';
 
 import { Layout, Image } from 'antd';
@@ -41,6 +42,7 @@ function Nav() {
             </div>
         </Header>
         <HomeContent/>
+        <About/>
         {/* <Footer>Footer</Footer> */}
       </Layout>
     </Layout>
