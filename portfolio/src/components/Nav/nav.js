@@ -1,10 +1,20 @@
 import React from 'react';
+
 import HomeContent from '../../pages/Home/home';
 import About from '../../pages/About/about';
 import Projects from '../../pages/Projects/projects';
+import Contact from '../../pages/Contact/contact';
+
+import {
+    GithubOutlined,
+    LinkedinOutlined,
+    MailOutlined,
+    UserOutlined
+  } from '@ant-design/icons';
+
 import './nav.css';
 
-import { Layout, Image } from 'antd';
+import { Layout, Image, Avatar } from 'antd';
 
 const { Header, Footer, Sider } = Layout;
 
@@ -21,12 +31,13 @@ function Nav() {
     <Layout>
       <Sider id="sider">
           <nav id="nav-titles">
-            <Image
+            {/* <Image
                 id="cover-image"
                 width={200}
                 marginTop={30}
                 src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
-            />
+            /> */}
+            <Avatar size={70} icon={<UserOutlined />} />
               <a style= {styling}>Home</a>
               <a style= {styling}>About Me</a>
               <a style= {styling}>Resume</a>
@@ -36,15 +47,19 @@ function Nav() {
         </Sider>
       <Layout>
         <Header>
-            <div>
-                <h2 id="header">
-                    Wynton Davis - Full Stack Web Developer 
+            <div id="header">
+                <h2>
+                    {/* Wynton Davis - Full Stack Web Developer  */}
+                    <button> <GithubOutlined /></button>
+                    <button> <LinkedinOutlined /></button>
+                    <button> <MailOutlined /></button>
                 </h2> 
             </div>
         </Header>
         <HomeContent />
         <About />
         <Projects />
+        <Contact />
         {/* <Footer>Footer</Footer> */}
       </Layout>
     </Layout>

@@ -17,3 +17,10 @@
     text-align: center;
     margin-top:230px;
 }
+
+#project-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-left:70px;
+    text-align:center;
+}

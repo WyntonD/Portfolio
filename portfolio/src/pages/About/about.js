@@ -7,9 +7,10 @@ const { Content } = Layout;
 function About() {
     return (
         <div>
-        <Layout id="layout">
+        <Layout id="about-layout">
             <Content id="content">
             <img></img>
+            <h1>About Me</h1>
             <p id="bio">
             I'm a full stack web developer with a passion for design and quality for optimal user activity. 
             Prior to my coding introduction, I was previosuly geared to go to medical school while in college.
@@ -22,6 +23,16 @@ function About() {
                 <button> Resume </button>
                 <button> Projects </button>
             </div>
+
+            <h1 id="skills title"> Skills </h1>
+            <div id = "technologies">
+                <h1>HTML</h1>
+                <h1>CSS</h1>
+                <h1>JavaScript</h1>
+                <h1>React</h1>
+                <h1>Node</h1>
+            </div>
+
             </Content>
         </Layout>
         </div>
