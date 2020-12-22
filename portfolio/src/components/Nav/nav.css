@@ -15,6 +15,7 @@
 
 button {
     position: sticky;
+    background: transparent;
     top:0;
     right:0;
 }
