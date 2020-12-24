@@ -31,12 +31,6 @@ function Nav() {
     <Layout>
       <Sider id="sider">
           <nav id="nav-titles">
-            {/* <Image
-                id="cover-image"
-                width={200}
-                marginTop={30}
-                src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
-            /> */}
             <Avatar size={70} icon={<UserOutlined />} />
               <a style= {styling}>Home</a>
               <a style= {styling}>About Me</a>
@@ -46,7 +40,7 @@ function Nav() {
           </nav>
         </Sider>
       <Layout>
-        <Header>
+        <Header id="sticky-top">
             <div id="header">
                 <h2>
                     {/* Wynton Davis - Full Stack Web Developer  */}

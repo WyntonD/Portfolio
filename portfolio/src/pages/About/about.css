@@ -7,13 +7,60 @@
 }
 
 #about-layout {
-
     margin-left: 90px;
+}
 
+#about-buttons {
+    display: flex;
+    border-radius: 50%;
+    justify-content: space-around;
 }
 
 #heading-name {
     font-size:100px;
     text-align: center;
     margin-top:230px;
+}
+
+
+.react-img {
+    animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+.html-img figure {
+    position: relative;
+}
+
+.html-img figure::before {
+    -webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	opacity: 0;
+}
+
+.html-img:hover::before {
+    -webkit-animation: circle .75s;
+	animation: circle .75s;
+}
+
+
+/* animation */
+
+#skills-title {
+    font-size: 100px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#technologies {
+    margin:20px;
+    display: flex;
+    justify-content: space-between;
 }

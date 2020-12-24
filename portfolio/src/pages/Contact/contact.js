@@ -11,10 +11,10 @@ const { Content } = Layout;
 function Contact() {
     return (
         <div>
-            <Layout id="layout">
+            <Layout id="contact-layout">
                 <Content id="content">
                 <div>
-                    <h1 id="heading-name">Contact</h1>
+                    <h1 id="contact-title">Contact</h1>
                     <div id="socials">
                         <h2>Linkedin</h2>
                         <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="wynton-davis-a63119187">

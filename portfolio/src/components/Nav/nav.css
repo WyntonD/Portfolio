@@ -13,6 +13,12 @@
     justify-content: space-between;
 }
 
+#sticky-top {
+    position: sticky;
+    top:0;
+    z-index: 3;
+}
+
 button {
     position: sticky;
     background: transparent;
@@ -25,11 +31,17 @@ button {
     margin-top:50px;
 }
 
+#nav-titles a {
+    padding-top:5px;
+}
+
 #sider {
     position:fixed;
     height: 1000px;
     background-color: #fff;
+    z-index: 4;
 }
+
 
 #content {
     height:1000px;

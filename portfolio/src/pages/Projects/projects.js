@@ -28,10 +28,10 @@ const projects = [
 function Projects() {
     return (
         <div>
-            <Layout id="layout">
+            <Layout id="project-layout">
                 <Content id="content">
                 <div>
-                    <h1 id="heading-name">Projects</h1>
+                    <h1 id="project-title">Projects</h1>
 
                 <div id="project-cards">
                     <Card

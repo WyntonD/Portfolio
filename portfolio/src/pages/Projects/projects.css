@@ -6,16 +6,18 @@
     top:60px;
 }
 
-#layout {
+#project-layout {
 
     margin-left: 90px;
 
 }
 
-#heading-name {
+#project-title {
     font-size:100px;
     text-align: center;
     margin-top:230px;
+    color:#000;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 #project-cards {

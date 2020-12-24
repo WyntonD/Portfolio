@@ -2,3 +2,9 @@
     margin: 50px;
     text-align: center;
 }
+
+#contact-title {
+    color:#000;
+    font-family: 'Cormorant Garamond', serif;
+    font-size:100px;
+}
