@@ -1,0 +1,12 @@
+.top-header {
+    position:fixed;
+    top:0;
+    right:0;
+    display: flex;
+    color:#000;
+    margin:20px;
+}
+
+.socials {
+    margin-right:20px;
+}

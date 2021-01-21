@@ -1,13 +1,80 @@
-@import 'antd/dist/antd.css';
-
-#content {
-    height:1000px;
-    padding-left: 80px;
-    top:60px;
+.about-buttons {
+    display:flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom:2%;
+    left:40%;
 }
 
-#about-layout {
-    margin-left: 90px;
+.about-container {
+    background-color:#fff;
+    height:100vh;
+    width:100vw;
+}
+
+.about-heading {
+    position: absolute;
+    top:25%;
+    left:25%;
+    font-family: 'Cormorant Garamond', serif;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.about-link {
+    border: 1px solid #000;
+    border-radius: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    padding:10px;
+    margin:30px;
+}
+
+.about-link:hover {
+    background-color:red;
+    color:#fff;
+    border: 1px solid red;
+    border-radius:30px;
+}
+
+.bio {
+    position: fixed;
+    top:30%;
+    left:20%;
+    margin:60px;
+    font-size:25px;
+    background-color:#000;
+    color:#fff;
+    padding:15px;
+    font-family: 'Cormorant Garamond', serif;
+    border-radius: 10px;
+}
+
+
+/* @import 'antd/dist/antd.css';
+
+
+* {
+    box-sizing: border-box;
+}
+
+.about-container {
+    position: fixed;
+    top:0;
+    justify-content: center;
+
+}
+
+.about-layout {
+    position: relative;
+    justify-content: center;
+    margin-top:50%;
+    margin-left: 400px;
+}
+
+.bio {
+text-align: center;
+margin-right:100px;
+
 }
 
 #about-buttons {
@@ -49,12 +116,12 @@
 .html-img:hover::before {
     -webkit-animation: circle .75s;
 	animation: circle .75s;
-}
+} */
 
 
 /* animation */
 
-#skills-title {
+/* #skills-title {
     font-size: 100px;
     font-family: 'Cormorant Garamond', serif;
 }
@@ -64,3 +131,9 @@
     display: flex;
     justify-content: space-between;
 }
+
+#technologies2 {
+    margin:20px;
+    display: flex;
+    justify-content: space-between;
+} */

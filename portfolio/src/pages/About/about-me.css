@@ -1,0 +1,39 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.about-container {
+    background-color: #fff;
+}
+
+.about-heading {
+    position: fixed;
+    font-size: 80px;
+    top:20%;
+    left:305px;
+}
+
+.about-para {
+    position: fixed;
+    top:40%;
+    left:305px;
+    font-size:30px;
+    margin-right:40px;
+}
+
+.about-btns {
+    position: fixed;
+    top:15%;
+    right:10%;
+}
+
+.resume-btn, .project-btn {
+    margin-left:50px;
+    background:transparent;
+    border-radius:10px;
+    font-size:30px;
+}
+
+

@@ -21,7 +21,9 @@ function Contact() {
                             <a class="LI-simple-link" href='https://www.linkedin.com/in/wynton-davis-a63119187?trk=profile-badge'>Wynton Davis</a>
                         </div>
                         <h2>GitHub</h2>
-                        <GithubOutlined />
+                        <a href="https://github.com/WyntonD/">
+                            <img src="https://img.icons8.com/bubbles/200/000000/github.png"/>
+                        </a>
                     </div>
 
                 </div>

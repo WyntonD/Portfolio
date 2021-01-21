@@ -1,24 +1,38 @@
 @import 'antd/dist/antd.css';
 
-#about-button {
-    color:#fff;
+
+* {
+    box-sizing: border-box;
 }
 
-button {
-    color:#fff;
+.home-container {
+    width:1500px;
+    
 }
 
-#content {
+.about-btn {
+    position: absolute;
+    right: 43%;
+    bottom:25%;
+    color:#000;
+
+}
+
+.content {
     height:1000px;
     width:100%;
     padding-left: 80px;
     top:60px;
 }
 
+.description {
+    z-index: 2000;
+}
+
 #layout {
 
-    margin-left: 100px;
-    background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80");
+    margin-left: 20px;
+    /* background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80"); */
     color: #eee;
     width: 100%;
     height: 100vh;
@@ -27,24 +41,25 @@ button {
     align-items: center;
     /* perspective: 1000px; */
     perspective-origin: 50% 50%;
-    animation: animation 100s linear infinite;
+    /* animation: animation 100s linear infinite; */
 }
 
-#heading-name {
+.heading-name {
     font-size:100px;
     font-family: 'Cormorant Garamond', serif;
     text-align: center;
     margin-top:230px;
-    color:#fff;
+    color:#000;
 }
 
-h2 {
-    color: yellow;
+.job-title {
+    color:#000;
+    font-family: 'Cormorant Garamond', serif;
 }
 
-#wrapper {
-    
-  }
+.description {
+    color:#000;
+}
   
   @keyframes animation {
      100%{

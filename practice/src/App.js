@@ -1,23 +1,15 @@
 import logo from './logo.svg';
+import { Element } from 'rc-scroll-anim';
+import ScrollParallax from 'rc-scroll-anim/lib/ScrollParallax';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Element className="pack-page">
+        <div>demo</div>
+      </Element>
+      <ScrollParallax id="para" vars={{x:100}}>Parallax</ScrollParallax>
     </div>
   );
 }
