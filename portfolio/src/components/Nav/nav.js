@@ -96,6 +96,11 @@ const listStyling = {
                 </NavLink>
               </li>
               <li>
+                <NavLink to="/resume" style={listStyling}>
+                  Resume
+                </NavLink>
+              </li>
+              <li>
                 <NavLink to="/skills" style={listStyling}>
                   Skills
                 </NavLink>

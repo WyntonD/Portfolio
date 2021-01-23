@@ -1,8 +1,7 @@
 import React, {useEffect }from 'react';
 import {
     BrowserRouter as Router,
-    NavLink,
-    
+    NavLink
 }
 from 'react-router-dom';
 

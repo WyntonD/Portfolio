@@ -17,7 +17,7 @@ import Hamburger from './components/Hamburger/hamburger';
 // import Project from './components/Project/projectpractice';
 // import ProjectModal from './components/Modal/modal';
 // import HomeContent from './pages/Home/home';
-// import Contact from './pages/Contact/contact';
+import Contact from './pages/Contact/contact';
 // import  Drag from './components/Drag/drag';
 // import Refresh from './components/Drag/refresh';
 import Nav from './components/Nav/nav';
@@ -44,6 +44,7 @@ function App() {
               <Route exact path="/about" component={About} />
               <Route exact path="/skills" component={Skills}/>
               <Route exact path="/projects" component={Projects} />
+              <Route exact path="/contact" component={Contact} />
             </Switch>
           </AnimatePresence>    
         </Router>

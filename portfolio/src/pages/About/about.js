@@ -1,7 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 import { motion } from 'framer-motion';
-
 import './about.css';
 
 import { NodeCollapseOutlined } from '@ant-design/icons';
@@ -56,8 +55,9 @@ function About() {
                                 animate={{ x: 10 }}
                                 transition={{ease:"easeIn", duration: 1}}
                                 className="about-link"
+                                id="skill"
                                 >
-                                    <h3>Skillsets </h3> 
+                                    <h3>Skillset </h3> 
                                 </motion.div>
                                 {/* <img src="https://img.icons8.com/nolan/96/group-of-projects.png"/> */}
                             </NavLink>
@@ -67,6 +67,7 @@ function About() {
                                 animate={{ x: 10 }}
                                 transition={{ease:"easeIn", duration: 1}}
                                 className="about-link"
+                                id="projects"
                                 >
                                     <h3>Projects </h3> 
                                 </motion.div>
